@@ -4,10 +4,6 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 html {
   box-sizing: border-box;
 
@@ -163,7 +159,9 @@ footer {
   }
 
   .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
   }
 
 }
