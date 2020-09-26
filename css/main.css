@@ -83,7 +83,7 @@ nav ul {
 .section {
   border-top: .2rem solid #e2e2e2;
   border-bottom: .2rem solid #e2e2e2;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   max-width: 30em;
 }
 
@@ -94,7 +94,6 @@ nav ul {
 }
 
 .section p {
-  font-size: 1.125rem;
   text-align: center;
 }
 
@@ -142,6 +141,17 @@ footer {
 
   html {
     font-size: 110%;
+  }
+
+  .section {
+    margin: auto;
+  }
+
+  .head {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
   }
 
 }
