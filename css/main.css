@@ -1,5 +1,18 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 html {
   box-sizing: border-box;
+
+  -moz-text-size-adjust:100%;
+  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: "Noto Sans", sans-serif;
@@ -21,7 +34,48 @@ body {
   margin: 0;
 }
 
+article {
+  margin: 1rem;
+}
+
 img {
   display: block;
   width: 100%;
+}
+
+header {
+  border-bottom: .2rem solid #e2e2e2;
+}
+
+header h1,
+header h2 {
+  text-align: center;
+  margin: 0;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header h2 {
+  font-size: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.nav a {
+  color: #3783a3;
+  font-size: 1.125rem;
+  padding: 1rem;
+}
+
+.banner-img {
+  margin-bottom: 1rem;
 }
