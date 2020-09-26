@@ -31,7 +31,7 @@ body {
 }
 
 header {
-  margin: 1rem 1rem 0;
+  margin: .75rem 1rem 0;
 }
 
 img {
@@ -81,8 +81,8 @@ main {
 }
 
 .section {
-  border-top: .2rem solid #e2e2e2;
-  border-bottom: .2rem solid #e2e2e2;
+  border-top: 3px solid #e2e2e2;
+  border-bottom: 3px solid #e2e2e2;
   margin-bottom: 1.5rem;
   max-width: 30em;
 }
@@ -97,8 +97,13 @@ main {
 }
 
 .section p {
-  padding: 0 .5rem;
+  margin-bottom: 2rem;
+  padding: 0 .75rem;
   text-align: center;
+}
+
+.cards {
+  margin-top: 1.5rem;
 }
 
 .card {
@@ -106,7 +111,7 @@ main {
 }
 
 .card img {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .card h3,
@@ -119,6 +124,7 @@ main {
 }
 
 .card p {
+  font-size: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -143,10 +149,6 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
-  html {
-    font-size: 110%;
-  }
-
   .section {
     margin: auto;
   }
@@ -169,7 +171,7 @@ footer {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 130%;
+    font-size: 110%;
   }
 
 }
