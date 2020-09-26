@@ -34,8 +34,8 @@ body {
   margin: 0;
 }
 
-article {
-  margin: 1rem;
+header {
+  margin: 1rem 1rem 0;
 }
 
 img {
@@ -78,6 +78,10 @@ nav ul {
 
 .banner-img {
   margin-bottom: 1.5rem;
+}
+
+main {
+  margin: 0 1rem;
 }
 
 .section {
